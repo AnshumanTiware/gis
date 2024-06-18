@@ -3,14 +3,15 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+# Customize the sidebar
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+This app explores different types of geospatial applications geared towards effective and efficient data visualization to draw useful insights for downstream applications.
+<https://github.com/AnshumanTiware/gis>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "public/logo.jpeg"
 st.sidebar.image(logo)
 
 st.title("Split-panel Map")
