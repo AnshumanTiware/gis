@@ -27,12 +27,11 @@ st.header("Visualizations")
 
 markdown = """
 1. Heatmap: These visualizations are good to see the intensity/ magnitude of a variable of interest in different locations.
-2. Interactive Dashboard: This type of dashboard shows all the desired metrics as the user hovers over the area of interest.
-3. Marker Cluster: These are good for clustering the locations based on certain predefined metric.
-4. Split Map: These maps are good for comparison purposes, the split halves may represent the status before and after the change for instance.
-5. Interactive Map: A map visualization to show the locations at a fine grained location around the area of interest.
-6. Basemaps: This app is a demonstration of searching and loading basemaps from xyzservices and Quick Map Services (QMS). Selecting from 1000+ basemaps with a few clicks.
-7. Web Map Service: This app is a demonstration of loading Web Map Service (WMS) layers. 
+2. Marker Cluster: These are good for clustering the locations based on certain predefined metric.
+3. Split Map: These maps are good for comparison purposes, the split halves may represent the status before and after the change for instance.
+4. Interactive Map: A map visualization to show the locations at a fine grained location around the area of interest.
+5. Basemaps: This app is a demonstration of searching and loading basemaps from xyzservices and Quick Map Services (QMS). Selecting from 1000+ basemaps with a few clicks.
+6. Web Map Service: This app is a demonstration of loading Web Map Service (WMS) layers. 
 """
 
 st.markdown(markdown)
